@@ -1,10 +1,20 @@
 # Quantitative Asset Allocation: S&P 500 Index Constituent Portfolio Optimization
 
 This Python-based financial engineering project utilizes real-time data from the S&P 500 index to construct a strategic asset allocation model for portfolio optimization.
+<div align = "center">
+  <img src = "https://github.com/sunami09/Quantitative-Asset-Allocation/assets/66564001/f7e90c38-e486-4d91-b600-5831bfb64dc2" height = 400>
+</div>
+
+
+
+
+
 
 ## Overview
 
-The project employs Python libraries such as urllib for handling URLs, json for parsing JSON data, pandas for data manipulation and analysis, and ssl for secure communication, to access and process live market data. It gathers the most recent market capitalization data for each S&P 500 constituent, calculates the weight of each stock in the index, and then determines the optimal number of shares to purchase for each equity to achieve a balanced portfolio allocation.
+The project uses Python libraries such as urllib for handling URLs, json for parsing JSON data, pandas for data manipulation and analysis, and ssl for secure communication, to access and process live market data. It gathers the most recent market capitalization data for each S&P 500 constituent, calculates the weight of each stock in the index, and then determines the optimal number of shares to purchase for each equity to achieve a balanced portfolio allocation.
+The urllib library is used for opening and reading URLs, allowing the script to send HTTP requests to the Financial Modeling Prep API and retrieve the data it needs. The Financial Modeling Prep API is a powerful tool that provides real-time and historical stock data, as well as other financial information. The API is used in this project to gather the most recent market capitalization data for each S&P 500 constituent. The results, including the name, symbol, price, market capitalization, weight in the index, number of shares to buy, and portfolio allocation for each stock, are exported in both CSV and Excel formats for further financial modeling and backtesting.
+
 
 ## API Responses
 
